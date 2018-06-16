@@ -1,0 +1,197 @@
+* {
+	box-sizing: border-box;
+	}
+
+html {
+	border: 20px solid #3082aa;
+	height: 100%;
+}
+body {
+	background: #3399cc;
+	color: white;
+	margin: 0;
+	width: 100%;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+
+.header-container {
+	font-size: 25px;
+	padding: 13px 13px 13px 0;
+	max-width: 650px;
+	text-align: left;
+	margin: auto;
+}
+
+.mainer__ul {
+	width: 100%;
+	max-width: 650px;
+	font-size: 0px;
+	list-style: none;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+	padding: 0;
+	border: 2px solid white;
+}
+
+.mainer__ul:hover li {
+	opacity: .4;
+}
+
+.mainer__ul li:hover {
+	opacity: 1;
+}
+
+.mainer__ul li {
+	border: 2px solid white;
+	display: inline-block;
+	font-size: 18px;
+	height: 100px;
+	padding-top: 20px;
+	letter-spacing: 1px;
+	transition: all .5s;
+}
+
+.mainer__ul div {
+	padding-top: 10px;
+	opacity: .5;
+	letter-spacing: 0;
+}
+
+.cite {
+	width: 25%;
+}
+
+.cite--half {
+	width: 50%;
+}
+
+.cite--full {
+	width: 100%;
+}
+
+.mainer__ul li:nth-child(2) {
+	background-color: #3DCDCB;
+}
+
+
+.mainer__ul li:nth-child(3) {
+	background-color: #986698;
+}
+
+.mainer__ul li:nth-child(4) {
+	background-color: #C0454A;
+}
+
+.mainer__ul li:nth-child(5) {
+	background-color: #E0654E;
+}
+
+.mainer__ul li:nth-child(6) {
+	background-color: #FECB6E;
+}
+
+.mainer__ul li:nth-child(7) {
+	background-color: #9ACC9B;
+}
+
+.mainer__ul li:nth-child(8) {
+	background-color: #689999;
+}
+
+.mainer__ul li:nth-child(9) {
+	background-color: #CA6598;
+}
+
+.mainer__ul li:nth-child(10) {
+	background-color: #389968;
+}
+
+.mainer__ul li:nth-child(11) {
+	background-color: #666697;
+}
+
+
+
+
+
+
+
+/*.cite_lisbon {
+	background-color: #3399cc;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_paris{
+	background-color: #33cccc;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_belgrade {
+	background-color: #996699;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_moscow {
+	background-color: #c24747;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_telaviv {
+	background-color: #e2674a;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+.cite_cair {
+	background-color: #e2674a;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_newyork {
+	background-color: #99cc99;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_newdelhi {
+	background-color: #669999;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+
+.cite_sanfrancisco {
+	background-color: #cc6699;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+.cite_tokio {
+	background-color: #339966;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
+
+
+.cite_syndey {
+	background-color: #666699;
+	border: 5px solid;
+	border-color: white;
+	display: inline-block;
+}
